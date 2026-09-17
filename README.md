@@ -1,6 +1,6 @@
-AQI Analysis — Android App
+Android App wrap
 
-An Android wrapper for the AQI Analysis & Visualization web application, built using Capacitor. It converts the existing web application into a standalone Android app with a native app-like experience, without displaying browser UI such as the address bar or tabs.
+An Android wrapper for the  web application, built using Capacitor. It converts the existing web application into a standalone Android app with a native app-like experience, without displaying browser UI such as the address bar or tabs.
 
 🌐 Live Website
 
@@ -65,7 +65,7 @@ The app loads the deployed Vercel website directly through Capacitor. Your capac
   "appName": "AQI Analysis",
   "webDir": "www",
   "server": {
-    "url": "https://aqi-analysis-and-visualization.vercel.app/",
+    "url": "your-web-application-url",
     "cleartext": false
   }
 }
