@@ -1,4 +1,4 @@
-Android App wrap
+Android App wrapper
 
 An Android wrapper for the  web application, built using Capacitor. It converts the existing web application into a standalone Android app with a native app-like experience, without displaying browser UI such as the address bar or tabs.
 
