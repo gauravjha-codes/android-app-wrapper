@@ -41,7 +41,7 @@ GitHub Actions
 Vercel
 
 📂 Project Structure
-
+```
 AQI-Android-App/
 ├── android/
 ├── assets/
@@ -54,12 +54,12 @@ AQI-Android-App/
 ├── capacitor.config.json
 ├── package.json
 └── README.md
-
+```
 
 ⚙️ Configuration
 
 The app loads the deployed Vercel website directly through Capacitor. Your capacitor.config.json should look like this:
-
+```
 {
   "appId": "com.glitchartiste.aqianalysis",
   "appName": "AQI Analysis",
@@ -69,7 +69,7 @@ The app loads the deployed Vercel website directly through Capacitor. Your capac
     "cleartext": false
   }
 }
-
+```
 
 🚀 Setup
 
