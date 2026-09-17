@@ -4,7 +4,10 @@ An Android wrapper for the AQI Analysis & Visualization web application, built u
 
 🌐 Live Website
 
-AQI Analysis & Visualization
+[AQI Analysis & Visualization](https://aqi-analysis-and-visualization.vercel.app/)
+
+Application Demo
+[AQI Analysis & Visualization Android Application Download Link]([https://aqi-analysis-and-visualization.vercel.app/](https://github.com/gauravjha-codes/aqi-analysis-android/actions/runs/35237218141/artifacts/10504280338))
 
 ✨ Features
 
