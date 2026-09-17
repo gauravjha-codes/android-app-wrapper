@@ -1,4 +1,4 @@
-🌫️ AQI Analysis — Android App
+AQI Analysis — Android App
 
 An Android wrapper for the AQI Analysis & Visualization web application, built using Capacitor. It converts the existing web application into a standalone Android app with a native app-like experience, without displaying browser UI such as the address bar or tabs.
 
@@ -6,7 +6,7 @@ An Android wrapper for the AQI Analysis & Visualization web application, built u
 
 [AQI Analysis & Visualization](https://aqi-analysis-and-visualization.vercel.app/)
 
-Application Demo
+🌐 Application Demo
 
 [AQI Analysis & Visualization Android Application Download Link](https://github.com/gauravjha-codes/aqi-analysis-android/actions/runs/35237218141/artifacts/10504280338)
 
@@ -74,26 +74,26 @@ The app loads the deployed Vercel website directly through Capacitor. Your capac
 🚀 Setup
 
 First, install the required dependencies:
-
+```
 npm install
-
+```
 
 Sync the Capacitor project with the Android folder:
-
+```
 npx cap sync android
-
+```
 
 Generate the Android app icon and splash screen assets:
-
+```
 npx @capacitor/assets generate --android
-
+```
 
 📦 APK Build
 
 The Android APK is automatically built using GitHub Actions. The build flow is:
-
+```
 Website → Capacitor → Android WebView → Gradle → APK
-
+```
 After a successful workflow run, you can download the generated APK from the Artifacts section of the GitHub Actions tab in your repository.
 
 ⚠️ Note
